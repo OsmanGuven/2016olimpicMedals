@@ -10,8 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class Countries extends TestBase {
-    public Countries(WebDriver driver){
+public class CountryByMedal extends TestBase {
+    public CountryByMedal(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

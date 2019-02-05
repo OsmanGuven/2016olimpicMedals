@@ -9,8 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 
-public class Index extends TestBase {
-    public Index(WebDriver driver) {
+public class GetIndex extends TestBase {
+    public GetIndex(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

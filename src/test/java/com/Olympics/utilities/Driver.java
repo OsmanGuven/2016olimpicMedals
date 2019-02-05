@@ -1,4 +1,4 @@
-package com.porsche.utilities;
+package com.Olympics.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

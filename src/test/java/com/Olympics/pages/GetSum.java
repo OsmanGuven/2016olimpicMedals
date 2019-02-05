@@ -9,8 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class Sum extends TestBase {
-    public Sum(WebDriver driver){
+public class GetSum extends TestBase {
+    public GetSum(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
